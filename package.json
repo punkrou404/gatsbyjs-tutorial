@@ -19,11 +19,15 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@emotion/core": "^10.1.1",
+    "gatsby-plugin-emotion": "^4.3.15",
     "gatsby-plugin-typography": "^2.5.13",
+    "gatsby-source-filesystem": "^2.4.2",
     "prettier": "2.1.2",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
-    "typography-theme-fairy-gates": "^0.16.19"
+    "typography-theme-fairy-gates": "^0.16.19",
+    "typography-theme-kirkham": "^0.16.19"
   },
   "repository": {
     "type": "git",
