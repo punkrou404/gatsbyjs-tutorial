@@ -30,6 +30,7 @@ export default function Home({ data }) {
             title={node.frontmatter.title}
             date={node.frontmatter.date}
             excerpt={node.excerpt}
+            slug={node.fields.slug}
           />
         ))}
       </div>
@@ -54,6 +55,9 @@ query MyQuery {
         frontmatter {
           date
           title
+        }
+        fields {
+          slug
         }
       }
     }
