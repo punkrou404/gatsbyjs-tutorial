@@ -43,7 +43,9 @@ export default function Layout({ children }) {
       >
         About
       </Link>
-      {children}
+      <div>
+        {children}
+      </div>
     </div>
   )
 }

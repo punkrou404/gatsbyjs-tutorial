@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Header from "../../components/header"
 import Layout from "../../components/layout"
 
 export default function MyFiles({ data }) {
@@ -7,7 +8,7 @@ export default function MyFiles({ data }) {
   return (
     <Layout>
         <div>
-            <h1>My Site's Files</h1>
+            <Header headerText="My Site's Files" />
             <table>
                 <thead>
                     <tr>
@@ -29,7 +30,6 @@ export default function MyFiles({ data }) {
                 </tbody>
             </table>
         </div>
-        <div>Hello world</div>
     </Layout>
   )
 }
